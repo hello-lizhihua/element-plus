@@ -1,0 +1,14 @@
+/* layout 组件样式重置:边框恒为 1px,容器圆角恒为 4px,色彩只用主色/次要色(见 skins)。 */
+.el-header,
+.el-footer,
+.el-aside {
+  flex-shrink: 0;
+}
+.el-header,
+.el-footer {
+  padding: 0 8px;
+}
+.el-main {
+  padding: 8px;
+}
+

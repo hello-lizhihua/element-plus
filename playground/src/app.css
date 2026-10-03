@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  font-family: var(--el-font-family);
+  -webkit-font-smoothing: antialiased;
+}
+
+#app {
+  min-height: 100vh;
+}
+
+.el-message,
+.el-message-box,
+.el-notification,
+.el-popper {
+  max-width: min(92vw, 480px);
+}
+
+html,
+body {
+  background: var(--el-bg-color-page);
+}

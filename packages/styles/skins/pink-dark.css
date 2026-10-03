@@ -1,0 +1,95 @@
+/* 清新粉 · 深(pink-dark):偏深粉的暗色形态。 */
+html[data-skin='pink'].dark {
+  --ep-primary: #e5486c;
+  --ep-secondary: #9c6b7c;
+
+  /* 主色梯度(向深底混合) */
+  --ep-primary-light-3: color-mix(in srgb, var(--ep-primary) 70%, #140d15);
+  --ep-primary-light-5: color-mix(in srgb, var(--ep-primary) 50%, #140d15);
+  --ep-primary-light-7: color-mix(in srgb, var(--ep-primary) 30%, #140d15);
+  --ep-primary-light-8: color-mix(in srgb, var(--ep-primary) 20%, #140d15);
+  --ep-primary-light-9: color-mix(in srgb, var(--ep-primary) 10%, #140d15);
+  --ep-primary-dark-2: color-mix(in srgb, var(--ep-primary) 80%, white);
+
+  /* 次要色梯度 */
+  --ep-secondary-light-3: color-mix(in srgb, var(--ep-secondary) 70%, #140d15);
+  --ep-secondary-light-5: color-mix(in srgb, var(--ep-secondary) 50%, #140d15);
+  --ep-secondary-light-7: color-mix(in srgb, var(--ep-secondary) 30%, #140d15);
+  --ep-secondary-light-8: color-mix(in srgb, var(--ep-secondary) 20%, #140d15);
+  --ep-secondary-light-9: color-mix(in srgb, var(--ep-secondary) 10%, #140d15);
+  --ep-secondary-dark-2: color-mix(in srgb, var(--ep-secondary) 80%, white);
+
+  /* Element Plus 主色 */
+  --el-color-primary: var(--ep-primary);
+  --el-color-primary-light-3: var(--ep-primary-light-3);
+  --el-color-primary-light-5: var(--ep-primary-light-5);
+  --el-color-primary-light-7: var(--ep-primary-light-7);
+  --el-color-primary-light-8: var(--ep-primary-light-8);
+  --el-color-primary-light-9: var(--ep-primary-light-9);
+  --el-color-primary-dark-2: var(--ep-primary-dark-2);
+
+  /* 功能色映射 */
+  --el-color-success: var(--ep-primary);
+  --el-color-success-light-3: var(--ep-primary-light-3);
+  --el-color-success-light-5: var(--ep-primary-light-5);
+  --el-color-success-light-7: var(--ep-primary-light-7);
+  --el-color-success-light-8: var(--ep-primary-light-8);
+  --el-color-success-light-9: var(--ep-primary-light-9);
+  --el-color-success-dark-2: var(--ep-primary-dark-2);
+
+  --el-color-danger: var(--ep-primary);
+  --el-color-danger-light-3: var(--ep-primary-light-3);
+  --el-color-danger-light-5: var(--ep-primary-light-5);
+  --el-color-danger-light-7: var(--ep-primary-light-7);
+  --el-color-danger-light-8: var(--ep-primary-light-8);
+  --el-color-danger-light-9: var(--ep-primary-light-9);
+  --el-color-danger-dark-2: var(--ep-primary-dark-2);
+
+  --el-color-error: var(--ep-primary);
+  --el-color-error-light-3: var(--ep-primary-light-3);
+  --el-color-error-light-5: var(--ep-primary-light-5);
+  --el-color-error-light-7: var(--ep-primary-light-7);
+  --el-color-error-light-8: var(--ep-primary-light-8);
+  --el-color-error-light-9: var(--ep-primary-light-9);
+  --el-color-error-dark-2: var(--ep-primary-dark-2);
+
+  --el-color-warning: var(--ep-secondary);
+  --el-color-warning-light-3: var(--ep-secondary-light-3);
+  --el-color-warning-light-5: var(--ep-secondary-light-5);
+  --el-color-warning-light-7: var(--ep-secondary-light-7);
+  --el-color-warning-light-8: var(--ep-secondary-light-8);
+  --el-color-warning-light-9: var(--ep-secondary-light-9);
+  --el-color-warning-dark-2: var(--ep-secondary-dark-2);
+
+  --el-color-info: var(--ep-secondary);
+  --el-color-info-light-3: var(--ep-secondary-light-3);
+  --el-color-info-light-5: var(--ep-secondary-light-5);
+  --el-color-info-light-7: var(--ep-secondary-light-7);
+  --el-color-info-light-8: var(--ep-secondary-light-8);
+  --el-color-info-light-9: var(--ep-secondary-light-9);
+  --el-color-info-dark-2: var(--ep-secondary-dark-2);
+
+  /* 中性色(深粉调暗色) */
+  --el-bg-color-page: #150f16;
+  --el-bg-color: #1d161e;
+  --el-bg-color-overlay: #251c26;
+  --el-text-color-primary: #f5e6ec;
+  --el-text-color-regular: #d9c3ce;
+  --el-text-color-secondary: #a98fa0;
+  --el-text-color-placeholder: #6e5563;
+  --el-text-color-disabled: #55404d;
+  --el-border-color: #4a3642;
+  --el-border-color-light: #3d2d38;
+  --el-border-color-lighter: #32242d;
+  --el-border-color-extra-light: #291e25;
+  --el-border-color-dark: #553f4d;
+  --el-border-color-darker: #604a59;
+  --el-fill-color: #291f2a;
+  --el-fill-color-light: #231b24;
+  --el-fill-color-lighter: #1e171f;
+  --el-fill-color-extra-light: #19131b;
+  --el-fill-color-dark: #322635;
+  --el-fill-color-darker: #3b2d3f;
+  --el-fill-color-blank: #1d161e;
+  --el-mask-color: rgba(21, 15, 22, 0.72);
+}

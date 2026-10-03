@@ -1,0 +1,13 @@
+/* steps 组件样式重置:边框恒为 1px,容器圆角恒为 4px,色彩只用主色/次要色(见 skins)。 */
+.el-step__head.is-process .el-step__icon {
+  border: 1px solid var(--el-color-primary);
+}
+.el-step__line {
+  height: 1px;
+  border: none;
+  background: var(--el-border-color-lighter);
+}
+.el-step__icon {
+  border-radius: 4px;
+}
+

@@ -1,0 +1,12 @@
+/* progress 组件样式重置:边框恒为 1px,容器圆角恒为 4px,色彩只用主色/次要色(见 skins)。 */
+.el-progress-bar__outer,
+.el-progress-bar__inner {
+  border-radius: 4px;
+}
+.el-progress-bar__inner {
+  background: var(--el-color-primary);
+}
+.el-progress__text {
+  font-size: 12px;
+}
+

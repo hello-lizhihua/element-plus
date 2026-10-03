@@ -1,0 +1,90 @@
+/* 明亮蓝 · 浅(blue-light):克莱因蓝(主色 #002fa7)。两色体系同全局约定。 */
+html[data-skin='blue'] {
+  --ep-primary: #002fa7;
+  --ep-secondary: #6b6f96;
+
+  --ep-primary-light-3: color-mix(in srgb, var(--ep-primary) 70%, white);
+  --ep-primary-light-5: color-mix(in srgb, var(--ep-primary) 50%, white);
+  --ep-primary-light-7: color-mix(in srgb, var(--ep-primary) 30%, white);
+  --ep-primary-light-8: color-mix(in srgb, var(--ep-primary) 20%, white);
+  --ep-primary-light-9: color-mix(in srgb, var(--ep-primary) 10%, white);
+  --ep-primary-dark-2: color-mix(in srgb, var(--ep-primary) 80%, black);
+
+  --ep-secondary-light-3: color-mix(in srgb, var(--ep-secondary) 70%, white);
+  --ep-secondary-light-5: color-mix(in srgb, var(--ep-secondary) 50%, white);
+  --ep-secondary-light-7: color-mix(in srgb, var(--ep-secondary) 30%, white);
+  --ep-secondary-light-8: color-mix(in srgb, var(--ep-secondary) 20%, white);
+  --ep-secondary-light-9: color-mix(in srgb, var(--ep-secondary) 10%, white);
+  --ep-secondary-dark-2: color-mix(in srgb, var(--ep-secondary) 80%, black);
+
+  --el-color-primary: var(--ep-primary);
+  --el-color-primary-light-3: var(--ep-primary-light-3);
+  --el-color-primary-light-5: var(--ep-primary-light-5);
+  --el-color-primary-light-7: var(--ep-primary-light-7);
+  --el-color-primary-light-8: var(--ep-primary-light-8);
+  --el-color-primary-light-9: var(--ep-primary-light-9);
+  --el-color-primary-dark-2: var(--ep-primary-dark-2);
+
+  --el-color-success: var(--ep-primary);
+  --el-color-success-light-3: var(--ep-primary-light-3);
+  --el-color-success-light-5: var(--ep-primary-light-5);
+  --el-color-success-light-7: var(--ep-primary-light-7);
+  --el-color-success-light-8: var(--ep-primary-light-8);
+  --el-color-success-light-9: var(--ep-primary-light-9);
+  --el-color-success-dark-2: var(--ep-primary-dark-2);
+
+  --el-color-danger: var(--ep-primary);
+  --el-color-danger-light-3: var(--ep-primary-light-3);
+  --el-color-danger-light-5: var(--ep-primary-light-5);
+  --el-color-danger-light-7: var(--ep-primary-light-7);
+  --el-color-danger-light-8: var(--ep-primary-light-8);
+  --el-color-danger-light-9: var(--ep-primary-light-9);
+  --el-color-danger-dark-2: var(--ep-primary-dark-2);
+
+  --el-color-error: var(--ep-primary);
+  --el-color-error-light-3: var(--ep-primary-light-3);
+  --el-color-error-light-5: var(--ep-primary-light-5);
+  --el-color-error-light-7: var(--ep-primary-light-7);
+  --el-color-error-light-8: var(--ep-primary-light-8);
+  --el-color-error-light-9: var(--ep-primary-light-9);
+  --el-color-error-dark-2: var(--ep-primary-dark-2);
+
+  --el-color-warning: var(--ep-secondary);
+  --el-color-warning-light-3: var(--ep-secondary-light-3);
+  --el-color-warning-light-5: var(--ep-secondary-light-5);
+  --el-color-warning-light-7: var(--ep-secondary-light-7);
+  --el-color-warning-light-8: var(--ep-secondary-light-8);
+  --el-color-warning-light-9: var(--ep-secondary-light-9);
+  --el-color-warning-dark-2: var(--ep-secondary-dark-2);
+
+  --el-color-info: var(--ep-secondary);
+  --el-color-info-light-3: var(--ep-secondary-light-3);
+  --el-color-info-light-5: var(--ep-secondary-light-5);
+  --el-color-info-light-7: var(--ep-secondary-light-7);
+  --el-color-info-light-8: var(--ep-secondary-light-8);
+  --el-color-info-light-9: var(--ep-secondary-light-9);
+  --el-color-info-dark-2: var(--ep-secondary-dark-2);
+
+  --el-bg-color-page: #eef0f8;
+  --el-bg-color: #ffffff;
+  --el-bg-color-overlay: #ffffff;
+  --el-text-color-primary: #131521;
+  --el-text-color-regular: #3c4052;
+  --el-text-color-secondary: #62688a;
+  --el-text-color-placeholder: #9ba0c2;
+  --el-text-color-disabled: #c3c6da;
+  --el-border-color: #d5d7ef;
+  --el-border-color-light: #dfe1f4;
+  --el-border-color-lighter: #e9eaf8;
+  --el-border-color-extra-light: #f4f5fb;
+  --el-border-color-dark: #c6c9e4;
+  --el-border-color-darker: #bcbfd9;
+  --el-fill-color: #e9ebf6;
+  --el-fill-color-light: #eff0f8;
+  --el-fill-color-lighter: #f7f8fc;
+  --el-fill-color-extra-light: #fcfcfd;
+  --el-fill-color-dark: #dfe1f0;
+  --el-fill-color-darker: #d5d7e8;
+  --el-fill-color-blank: #ffffff;
+  --el-mask-color: rgba(238, 240, 248, 0.72);
+}

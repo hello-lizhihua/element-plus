@@ -1,0 +1,9 @@
+/* input-tag 组件样式重置:边框恒为 1px,容器圆角恒为 4px,色彩只用主色/次要色(见 skins)。 */
+.el-input-tag {
+  border-radius: 4px;
+  box-shadow: 0 0 0 1px var(--el-border-color) inset;
+}
+.el-input-tag__item {
+  border-radius: 4px;
+}
+

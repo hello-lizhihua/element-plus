@@ -1,0 +1,9 @@
+/* drawer 组件样式重置:边框恒为 1px,容器圆角恒为 4px,色彩只用主色/次要色(见 skins)。 */
+.el-drawer {
+  --el-drawer-padding-primary: 12px;
+  box-shadow: var(--el-box-shadow-dark);
+}
+.el-drawer__header {
+  margin-bottom: 12px;
+}
+

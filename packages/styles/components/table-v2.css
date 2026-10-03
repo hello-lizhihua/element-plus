@@ -1,0 +1,14 @@
+/* table-v2 组件样式重置:边框恒为 1px,容器圆角恒为 4px,色彩只用主色/次要色(见 skins)。 */
+.el-table-v2 {
+  --el-table-border-color: var(--el-border-color-lighter);
+  font-size: 13px;
+}
+.el-table-v2__header-cell {
+  border: 1px solid var(--el-table-border-color);
+}
+.el-table-v2__left {
+  box-shadow: var(--el-box-shadow);
+}
+.el-table-v2__right {
+  box-shadow: var(--el-box-shadow);
+}

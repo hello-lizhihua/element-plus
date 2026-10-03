@@ -1,0 +1,11 @@
+/* menu 组件样式重置:边框恒为 1px,容器圆角恒为 4px,色彩只用主色/次要色(见 skins)。 */
+.el-menu {
+  border-right: 1px solid var(--el-border-color-lighter);
+}
+.el-menu--horizontal {
+  border-bottom: 1px solid var(--el-border-color-lighter);
+}
+.el-menu-item.is-active {
+  color: var(--el-color-primary);
+}
+

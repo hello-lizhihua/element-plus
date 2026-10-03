@@ -1,0 +1,15 @@
+/* base 组件样式重置:边框恒为 1px,容器圆角恒为 4px,色彩只用主色/次要色(见 skins)。 */
+/* 基础结构层:全局圆角与边框口径(所有组件继承)。 */
+:root {
+  --el-border-radius-base: 4px;
+  --el-border-radius-small: 4px;
+  --el-border-radius-round: 4px;
+  --el-font-family: 'PingFang SC', 'Helvetica Neue', 'Microsoft YaHei', 'Source Han Sans SC',
+    system-ui, -apple-system, sans-serif;
+  --el-box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+  --el-box-shadow-light: 0 2px 8px rgba(0, 0, 0, 0.06);
+  --el-box-shadow-lighter: 0 1px 4px rgba(0, 0, 0, 0.05);
+  --el-box-shadow-dark: 0 8px 24px rgba(0, 0, 0, 0.16);
+  --el-border-width: 1px;
+}
+

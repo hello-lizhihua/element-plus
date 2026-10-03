@@ -1,0 +1,9 @@
+/* select-v2 组件样式重置:边框恒为 1px,容器圆角恒为 4px,色彩只用主色/次要色(见 skins)。 */
+.el-select-v2__wrapper {
+  border-radius: 4px;
+  box-shadow: 0 0 0 1px var(--el-border-color) inset;
+}
+.el-select-dropdown {
+  border-radius: 4px;
+}
+

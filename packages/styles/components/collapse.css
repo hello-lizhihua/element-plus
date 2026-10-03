@@ -1,0 +1,14 @@
+/* collapse 组件样式重置:边框恒为 1px,容器圆角恒为 4px,色彩只用主色/次要色(见 skins)。 */
+.el-collapse {
+  border-width: 1px;
+}
+.el-collapse-item__header {
+  border-bottom: 1px solid var(--el-border-color-lighter);
+}
+.el-collapse-item__wrap {
+  border-bottom: 1px solid var(--el-border-color-lighter);
+}
+.el-collapse-item__content {
+  padding-bottom: 12px;
+}
+

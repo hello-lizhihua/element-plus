@@ -1,0 +1,13 @@
+/* divider 组件样式重置:边框恒为 1px,容器圆角恒为 4px,色彩只用主色/次要色(见 skins)。 */
+.el-divider--horizontal {
+  border-top: 1px solid var(--el-border-color-lighter);
+  height: 0;
+}
+.el-divider__text {
+  padding: 0 12px;
+}
+.el-divider--vertical {
+  border-left: 1px solid var(--el-border-color-lighter);
+  width: 0;
+}
+

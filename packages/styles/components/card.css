@@ -1,0 +1,17 @@
+/* card 组件样式重置:边框恒为 1px,容器圆角恒为 4px,色彩只用主色/次要色(见 skins)。 */
+.el-card {
+  --el-card-border-radius: 4px;
+  --el-card-padding: 12px;
+  border: 1px solid var(--el-border-color-lighter);
+  box-shadow: none;
+}
+.el-card__header {
+  padding: 8px 12px;
+}
+.el-card__body {
+  padding: 12px;
+}
+.el-card.is-always-shadow {
+  box-shadow: var(--el-box-shadow-light);
+}
+

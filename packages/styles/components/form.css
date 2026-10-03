@@ -1,0 +1,8 @@
+/* form 组件样式重置:边框恒为 1px,容器圆角恒为 4px,色彩只用主色/次要色(见 skins)。 */
+.el-form-item__error {
+  font-size: 12px;
+}
+.el-form--inline .el-form-item {
+  margin-right: 16px;
+}
+

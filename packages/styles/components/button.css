@@ -1,0 +1,11 @@
+/* button 组件样式重置:边框恒为 1px,容器圆角恒为 4px,色彩只用主色/次要色(见 skins)。 */
+.el-button {
+  border-width: 1px;
+  border-radius: 4px;
+  font-weight: 500;
+}
+.el-button.is-round,
+.el-button.is-circle {
+  border-radius: 4px;
+}
+

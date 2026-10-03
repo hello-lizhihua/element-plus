@@ -1,0 +1,20 @@
+/* transfer 组件样式重置:边框恒为 1px,容器圆角恒为 4px,色彩只用主色/次要色(见 skins)。 */
+.el-transfer-panel {
+  border: 1px solid var(--el-border-color-lighter);
+  border-radius: 4px;
+}
+.el-transfer-panel__header {
+  padding: 8px;
+}
+.el-transfer-panel__body {
+}
+.el-transfer-panel__filter {
+  padding: 8px;
+}
+.el-transfer__button {
+  width: 28px;
+  border-radius: 4px;
+}
+.el-transfer-panel .el-transfer-panel__footer .el-checkbox {
+  padding-left: 12px;
+}

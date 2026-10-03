@@ -1,0 +1,10 @@
+/* slider 组件样式重置:边框恒为 1px,容器圆角恒为 4px,色彩只用主色/次要色(见 skins)。 */
+.el-slider__runway,
+.el-slider__bar {
+  border-radius: 4px;
+}
+.el-slider__button {
+  border: 1px solid var(--el-color-primary);
+  border-radius: 4px;
+}
+

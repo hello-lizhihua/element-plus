@@ -1,0 +1,16 @@
+/* timeline 组件样式重置:边框恒为 1px,容器圆角恒为 4px,色彩只用主色/次要色(见 skins)。 */
+.el-timeline-item__wrapper {
+  border-left: 1px solid var(--el-border-color-lighter);
+}
+.el-timeline-item__node {
+  border-radius: 50%;
+}
+.el-timeline-item {
+  padding-bottom: 12px;
+}
+.el-timeline.is-alternate,
+.el-timeline.is-alternate-reverse {
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
