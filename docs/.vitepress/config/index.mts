@@ -73,6 +73,9 @@ const setupConfig = (configEnv) => {
       langs: languages,
     },
     cleanUrls: true,
+    // 与官方差异:官方仓库 CHANGELOG 在 docs/ 之外,本仓库为防丢移入 docs/,
+    // 必须排除出页面编译,否则 vitepress build 会把它当组件页解析 markdown 里的原始 HTML
+    srcExclude: ['CHANGELOG.en-US.md'],
     sitemap: {
       hostname: 'https://element-plus.org',
     },

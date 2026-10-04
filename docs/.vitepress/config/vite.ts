@@ -65,7 +65,7 @@ export const getViteConfig = ({ mode }: { mode: string }) => {
     },
     server: {
       host: true,
-      port: 2000,
+      port: 3100,
       fs: {
         allow: [projRoot],
       },

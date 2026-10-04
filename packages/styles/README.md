@@ -1,6 +1,6 @@
-# @ep-skin/styles
+# @hello-lizhihua/element-plus
 
-Element Plus 适配皮肤样式包：**两色体系 + 全组件结构重置**。
+Element Plus 适配皮肤样式包：**两色体系 + 全组件结构重置**。本目录即发布到 GitHub Packages 的包源（`pnpm publish`），与线上版本同名同清单。
 
 ## 两条铁律（所有组件强制）
 
@@ -22,8 +22,8 @@ Element Plus 适配皮肤样式包：**两色体系 + 全组件结构重置**。
 
 | 文件 | 说明 |
 | --- | --- |
-| `skins/white-light.css` | 淡雅白 · 浅（灰白基调） |
-| `skins/white-dark.css` | 淡雅白 · 深 |
+| `skins/blue-light.css` | 明亮蓝 · 浅（克莱因蓝 `#002fa7`） |
+| `skins/blue-dark.css` | 明亮蓝 · 深 |
 | `skins/pink-light.css` | 清新粉 · 浅（加深偏红的粉 `#e5486c`） |
 | `skins/pink-dark.css` | 清新粉 · 深 |
 
@@ -31,11 +31,11 @@ Element Plus 适配皮肤样式包：**两色体系 + 全组件结构重置**。
 
 ```js
 // 全部引入(推荐,运行时以 html[data-skin] 与 .dark 切换)
-import '@ep-skin/styles/skins/white-light.css'
-import '@ep-skin/styles/skins/white-dark.css'
-import '@ep-skin/styles/skins/pink-light.css'
-import '@ep-skin/styles/skins/pink-dark.css'
-import '@ep-skin/styles/components/index.css'
+import '@hello-lizhihua/element-plus/skins/blue-light.css'
+import '@hello-lizhihua/element-plus/skins/blue-dark.css'
+import '@hello-lizhihua/element-plus/skins/pink-light.css'
+import '@hello-lizhihua/element-plus/skins/pink-dark.css'
+import '@hello-lizhihua/element-plus/components/index.css'
 ```
 
 `components/` 下每个组件一个 css 文件（button.css、input.css、table.css……共 78 个），是唯一的样式源，直接手改即生效；只做该组件的结构重置（1px 边框、4px 圆角、内距紧凑化），色彩一律引用皮肤变量，组件文件内不出现具体色值。

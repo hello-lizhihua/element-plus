@@ -7,5 +7,3 @@ packages:
 allowBuilds:
   '@parcel/watcher': true
   esbuild: true
-minimumReleaseAgeExclude:
-  - '@hello-lizhihua/element-plus@0.1.2 || 0.1.3'

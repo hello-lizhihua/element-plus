@@ -1,0 +1,7 @@
+{
+  "name": "@element-plus/metadata",
+  "version": "0.0.1",
+  "private": true,
+  "main": "./dist/index.mjs",
+  "types": "./dist/index.d.ts"
+}

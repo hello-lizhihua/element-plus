@@ -1,11 +1,11 @@
-.vitepress/i18n/*
+# 官方忽略规则裁剪:zh-CN 页面、i18n 词条与 crowdin 中文映射在本仓库为手写内容, 必须入库(官方由 crowdin 生成故忽略)
 .vitepress/cache
 .vitepress/crowdin/*
 !.vitepress/crowdin/en-US
+!.vitepress/crowdin/zh-CN
 public/llms.txt
 public/llms-full.txt
 temp
-zh-CN
 fr-FR
 es-ES
 ja-JP
