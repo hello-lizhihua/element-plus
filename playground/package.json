@@ -12,7 +12,8 @@
     "@element-plus/icons-vue": "^2.3.2",
     "@hello-lizhihua/element-plus": "workspace:*",
     "element-plus": "^2.14.7",
-    "vue": "^3.5.13"
+    "vue": "^3.5.13",
+    "vue-router": "^4.6.4"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.2.3",
